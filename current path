@@ -1,0 +1,7 @@
+#=======================================
+# For Terminal Display & Color setting
+# ======================================
+#alias setprompt 'set prompt="[${cwd}] "'
+alias setprompt 'set prompt="%{^[[1m%}%{^[[36m%n%{^[[0m@%{^[[1m%}%{^[[32m%}%m%{^[[0m%}: %{^[[1m%}%{^[[33m%}%/%{^[[1m%}%{^[[0m%} => "'
+setprompt# to set the initial prompt
+alias cd 'chdir \!* && setprompt'
